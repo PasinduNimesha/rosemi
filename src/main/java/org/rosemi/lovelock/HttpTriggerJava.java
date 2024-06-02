@@ -29,5 +29,6 @@ public class HttpTriggerJava {
         } else {
             return request.createResponseBuilder(HttpStatus.OK).body("Hello, " + reverseName).build();
         }
+        
     }
 }
